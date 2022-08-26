@@ -9,8 +9,8 @@
 from wechatpush.wechatPush import WeChatPush
 
 if __name__ == '__main__':
-    pushWeChatMsg = WeChatPush('wx896cf855276b73fd', '749d46813f3966e4a305f235ec60728a',
-                               '8OuSnMT_EgVkbClLi-AFCpeJ5E31BUm0w1dudcgo3E0')
+    pushWeChatMsg = WeChatPush('微信APPID', '微信secret',
+                               '模板消息ID')
     # print(pushWeChatMsg.getWeChatToken())
     # print(pushWeChatMsg.getReceiveId())
     # print(WeChatPush.rainbowFart())
